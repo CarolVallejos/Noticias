@@ -149,7 +149,7 @@
       <section class="col-12 pl-0 pr-0">
         <div class="py-2 bg-primary text-white font-weight-bolder pl-4">ENTRETENIMIENTO</div>
         <div class="row">
-          <div class="col-4">
+          <div class="col-4 mt-5">
             <div class="card" style="width: auto;">
               <a href="htmlEntretenimiento/musica.html"><img src="resources/Imágenes/BsB.jpg" class="card-img-top" alt="..."></a>
               <div class="card-body">
@@ -157,7 +157,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-4 mt-5">
             <div class="card" style="width: auto;">
               <a href="htmlEntretenimiento/television.html"><img
                   src="resources/Imágenes/game-of-thrones-8x04-4-1-e1558133066385-750x400.jpg" class="card-img-top"
@@ -168,28 +168,62 @@
               </div>
             </div>
           </div>
-          <aside class="col-4 pl-0 pr-0 float-right">
-            <div class="col">
-              <div class="py-2 text-black font-weight-bolder text-center">TAMBIÉN TE PUEDE INTERESAR</div>
-              <div class="card mx-auto" style="width: 18rem;">
-                <img src="resources/Imágenes/dako.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">¿Cómo cuidar a tu mascota en tiempo de cuarentena?</p>
+          <div class="col-4 pl-0 pr-0 my-5">
+            <div class="font-weight-bolder text-center">
+              <div>
+                <h4>¿Por qué es importante <br>tener una mascota?</h4>
+                <img src="../resources/Imágenes/pets.jpg" class="card-img-top w-75 mt-3" alt="...">
+              </div>
+              
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary my-4" data-toggle="modal" data-target="#exampleModalLongp">
+                Ver más
+              </button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLongp" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content" style="background-color: rgb(159, 215, 247);">
+                  <div class="modal-header">
+                    <h4 class="modal-title font-weight-bolder mx-auto text-center" id="exampleModalLongTitle">
+                      ¿TIENES MASCOTAS?<br>Averigua los 7 beneficios de tener una</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-justify">
+                    <img src="../resources/Imágenes/pet1.jpg" class="card-img-top mt-5" alt="...">
+                    <div class="my-4">
+                      <ol>
+                        <li>Evitan el sentimiento de soledad.</li>
+                        <li>Alivian la depresión.</li>
+                        <li>Aumentan el sentimiento de felicidad.</li>
+                        <li>Reducen el estrés</li>
+                        <li>Aumentan el sentido de responsabilidad.</li>
+                        <li>Mejoran la vida social.</li>
+                        <li>Refuerzan la autoestima.</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                  </div>
                 </div>
               </div>
             </div>
-          </aside>
-          <div class="col-4 mt-5">
+          </div>
+          <div class="col-4">
             <div class="card" style="width: auto;">
-              <a href="htmlEntretenimiento/animacion.html"><img src="resources/Imágenes/SMOON1.png" class="card-img-top" alt="..."></a>
+              <a href="htmlEntretenimiento/animacion.html"><img src="resources/Imágenes/smoon4.png" class="card-img-top" alt="..."></a>
               <div class="card-body">
-                <p class="card-text">Sailor Moon tendrá dos nuevas películas y la primera se estrenará en 2020</p>
+                <p class="card-text">Sailor Moon tendrá dos nuevas películas y la primera se estrenará en 2020.</p>
               </div>
             </div>
           </div>
-          <div class="col-4 mt-5">
+          <div class="col-4">
             <div class="card" style="width: auto;">
-              <a href="htmlEntretenimiento/cine.html"><img src="resources/Imágenes/natalie-portman-750x400.jpg" class="card-img-top"
+              <a href="htmlEntretenimiento/cine.html"><img src="resources/Imágenes/nati4.jpg" class="card-img-top"
                   alt="..."></a>
               <div class="card-body">
                 <p class="card-text text-justify">"Es un sueño típico de infancia": Natalie Portman habla sobre su nueva
@@ -197,16 +231,12 @@
               </div>
             </div>
           </div>
-          <aside class="col-4 pl-0 pr-0 float-right">
-            <div class="col">
-              <div class="card mx-auto" style="width: 18rem;">
-                <img src="resources/Imágenes/dorama.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Nuevos doramas para pasar tu tiempo más entretenido.</p>
+          <aside class="col-4 pl-0 pr-0 text-center">              
+                <a href="https://www.estrenosdoramas.net/" target="_blank"><img src="resources/Imágenes/dorama.jpg" class="card-img-top w-75" alt="..."></a>
+                <div class="pt-5">
+                  <h4 class="">Nuevos doramas para pasar tu tiempo más entretenido.</h4>
                 </div>
-              </div>
-            </div>
-          </aside>
+         </aside>
         </div>
       </section>
     </div>
@@ -214,23 +244,23 @@
       <section class="col-12 pl-0 pr-0">
         <div id="educacion" class="py-2 bg-primary text-white font-weight-bolder pl-4">EDUCACIÓN</div>
       </section>
-      <div class="col-4 pl-0">
+      <div class="col-8 pl-0 pt-5">
         <div class="font-weight-bolder my-5 border border-primary rounded text-center">
-          <img src="resources/Imágenes/Ed a distancia.jpg" class="card-img-top" alt="...">
-          Educación a distancia y la falta de recursos para los estudiantes con gratuidad de la E. Superior.<br>
+          <img src="resources/Imágenes/educalejos.jpg" class="card-img-top" alt="...">
+          <h4 class="pt-4">Educación a distancia y la falta de recursos para los estudiantes <br>con gratuidad de la E. Superior.</h4>
           <!-- Button trigger modal -->
-        <button type="button" class="btn btn-light my-4" data-toggle="modal" data-target="#exampleModalLong">
+        <button type="button" class="btn btn-light my-4" data-toggle="modal" data-target="#exampleModalLong1-e">
           leer más...
         </button>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+        <div class="modal fade" id="exampleModalLong1-e" tabindex="-1" role="dialog"
           aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title font-weight-bolder " id="exampleModalLongTitle">Educación a distancia 
-                  y la falta de <br> recursos para los estudiantes con <br> gratuidad de la E. Superior</h5>
+                <h4 class="modal-title font-weight-bolder " id="exampleModalLongTitle">Educación a distancia 
+                  y la falta de <br> recursos para los estudiantes con <br> gratuidad de la E. Superior</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -239,87 +269,35 @@
                 <div class="mb-4">Abril, 2020 <br>
                   Redacción: Vallejos C.
                 </div>
-                <img src="resources/Imágenes/Ed a distancia.jpg" class="card-img-top" alt="...">
-                <div class="my-4">Sobre el conflicto entre educación a distancia y la falta de recursos en datos móviles
+                <img src="resources/Imágenes/educa5.jpg" class="card-img-top" alt="...">
+                <div class="my-4">
+                  Sobre el conflicto entre educación a distancia y la falta de recursos en datos móviles
                   para los estudiantes con gratuidad de la educación superior (pertenecientes al 60% más pobre del
                   país).
                 </div>
-                <div class="my-4">Es una excelente noticia el acuerdo entre el Ministerio de Educación y las empresas de
+                <div class="my-4">
+                  Es una excelente noticia el acuerdo entre el Ministerio de Educación y las empresas de
                   telefonía móvil para que el acceso a la plataforma Aprendo en Línea de MINEDUC no consuma
                   datos móviles a sus usuarios estudiantes de prekínder a cuarto medio.
                 </div>
-                <div class="my-4">La digitalización de los procesos educativos como tema urgente debe considerar
+                <div class="my-4">
+                  La digitalización de los procesos educativos como tema urgente debe considerar
                   también, en el campo de la educación superior, a los estudiantes provenientes del
                   60% de la población de menores ingresos y que ha aumentado en los últimos años. 
                 </div>
-                <div class="my-4">En 2019 el MINEDUC informó que 376.433 estudiantes, tanto nuevos como antiguos,
+                <div class="my-4">
+                  En 2019 el MINEDUC informó que 376.433 estudiantes, tanto nuevos como antiguos,
                   accedieron a Gratuidad, representando un 57,2% de la matrícula total de pregrado.
                 </div>
-                <div class="my-4">Es previsible que esta cifra se incremente en 2020. Por este motivo, sería de 
+                <div class="my-4">
+                  Es previsible que esta cifra se incremente en 2020. Por este motivo, sería de 
                   alto interés público evaluar un mecanismo similar al que ha aplicado aprendoenlínea.cl y 
                   que garantice el acceso a las aulas virtuales y plataformas educativas de 
                   las instituciones de educación superior adscritas a la Gratuidad, considerando el 
                   contexto de los hogares de menores recursos del país.
                 </div>
-                <div class="my-4">Un mecanismo de esta naturaleza permitiría garantizar la continuidad 
-                  al proceso formativo con calidad, buscando dar tranquilidad a los jóvenes que se han 
-                  matriculado en Universidades, Centros de Formación Técnica e Institutos Profesionales.
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="font-weight-bolder my-5 border border-primary rounded text-center">
-          Educación a distancia y la falta de recursos para los estudiantes con gratuidad de la E. Superior.<br>
-          <!-- Button trigger modal -->
-        <button type="button" class="btn btn-light my-4" data-toggle="modal" data-target="#exampleModalLong">
-          leer más...
-        </button>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
-          aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title font-weight-bolder " id="exampleModalLongTitle">Educación a distancia 
-                  y la falta de <br> recursos para los estudiantes con <br> gratuidad de la E. Superior</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body text-justify">
-                <div class="mb-4">Abril, 2020 <br>
-                  Redacción: Vallejos C.
-                </div>
-                <img src="resources/Imágenes/Ed a distancia.jpg" class="card-img-top" alt="...">
-                <div class="my-4">Sobre el conflicto entre educación a distancia y la falta de recursos en datos móviles
-                  para los estudiantes con gratuidad de la educación superior (pertenecientes al 60% más pobre del
-                  país).
-                </div>
-                <div class="my-4">Es una excelente noticia el acuerdo entre el Ministerio de Educación y las empresas de
-                  telefonía móvil para que el acceso a la plataforma Aprendo en Línea de MINEDUC no consuma
-                  datos móviles a sus usuarios estudiantes de prekínder a cuarto medio.
-                </div>
-                <div class="my-4">La digitalización de los procesos educativos como tema urgente debe considerar
-                  también, en el campo de la educación superior, a los estudiantes provenientes del
-                  60% de la población de menores ingresos y que ha aumentado en los últimos años. 
-                </div>
-                <div class="my-4">En 2019 el MINEDUC informó que 376.433 estudiantes, tanto nuevos como antiguos,
-                  accedieron a Gratuidad, representando un 57,2% de la matrícula total de pregrado.
-                </div>
-                <div class="my-4">Es previsible que esta cifra se incremente en 2020. Por este motivo, sería de 
-                  alto interés público evaluar un mecanismo similar al que ha aplicado aprendoenlínea.cl y 
-                  que garantice el acceso a las aulas virtuales y plataformas educativas de 
-                  las instituciones de educación superior adscritas a la Gratuidad, considerando el 
-                  contexto de los hogares de menores recursos del país.
-                </div>
-                <div class="my-4">Un mecanismo de esta naturaleza permitiría garantizar la continuidad 
+                <div class="my-4">
+                  Un mecanismo de esta naturaleza permitiría garantizar la continuidad 
                   al proceso formativo con calidad, buscando dar tranquilidad a los jóvenes que se han 
                   matriculado en Universidades, Centros de Formación Técnica e Institutos Profesionales.
                 </div>
@@ -333,31 +311,28 @@
       </div>
       <aside class="col-4 pr-0 float-right">
         <div class="col">
-          <div class="py-2 text-black font-weight-bolder text-center">TAMBIÉN TE PUEDE INTERESAR</div>
-          <div class="card mx-auto" style="width: 18rem;">
-            <img src="resources/Imágenes/dako.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">¿Cómo cuidar a tu mascota en tiempo de cuarentena?</p>
-            </div>
-          </div>
-        </div>
+          <img src="resources/Imágenes/donuts.jpg" class="card-img-top" alt="...">
+          <img src="resources/Imágenes/donuts1.png" class="card-img-top" alt="...">
+          <img src="resources/Imágenes/donuts2.jpg" class="card-img-top" alt="...">
+           </div>
       </aside>
-      <div class="col-5">
+      <div class="col-6">
         <div class="font-weight-bolder my-5 border border-primary rounded text-center">
-          Educación a distancia y la falta de recursos para los estudiantes con gratuidad de la E. Superior.<br>
+          <img src="resources/Imágenes/educa6.jpg" class="card-img-top" alt="...">
+          <h4 class="pt-4">Ministro de Educación indica que fecha de PSU se "acomodará" a evolución de emergencia por Covid-19.</h4>
           <!-- Button trigger modal -->
-        <button type="button" class="btn btn-light my-4" data-toggle="modal" data-target="#exampleModalLong">
+        <button type="button" class="btn btn-light my-4" data-toggle="modal" data-target="#exampleModalLong2-e">
           leer más...
         </button>
         </div>
         <!-- Modal -->
-        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+        <div class="modal fade" id="exampleModalLong2-e" tabindex="-1" role="dialog"
           aria-labelledby="exampleModalLongTitle" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title font-weight-bolder " id="exampleModalLongTitle">Educación a distancia 
-                  y la falta de <br> recursos para los estudiantes con <br> gratuidad de la E. Superior</h5>
+                <h4 class="modal-title font-weight-bolder " id="exampleModalLongTitle">
+                  Ministro de Educación indica que fecha de PSU se "acomodará" a evolución de emergencia por Covid-19</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -366,31 +341,94 @@
                 <div class="mb-4">Abril, 2020 <br>
                   Redacción: Vallejos C.
                 </div>
-                <img src="resources/Imágenes/Ed a distancia.jpg" class="card-img-top" alt="...">
-                <div class="my-4">Sobre el conflicto entre educación a distancia y la falta de recursos en datos móviles
-                  para los estudiantes con gratuidad de la educación superior (pertenecientes al 60% más pobre del
-                  país).
+                <img src="resources/Imágenes/educa7.jpg" class="card-img-top" alt="...">
+                <div class="my-4">
+                  El ministro de Educación, Raúl Figueroa, indicó que deberán evaluar la fecha de la 
+                  Prueba de Selección Universitaria (PSU), en la medida que vaya evolucionando la 
+                  emergencia por el Covid-19 en el país.
                 </div>
-                <div class="my-4">Es una excelente noticia el acuerdo entre el Ministerio de Educación y las empresas de
-                  telefonía móvil para que el acceso a la plataforma Aprendo en Línea de MINEDUC no consuma
-                  datos móviles a sus usuarios estudiantes de prekínder a cuarto medio.
+                <div class="my-4">
+                  En conversación con “Podría ser Peor”, el titular de la cartera de 
+                  Educación señaló que “vamos a tener que fijar la fecha de acuerdo a cómo evolucione el 
+                  calendario escolar“.
                 </div>
-                <div class="my-4">La digitalización de los procesos educativos como tema urgente debe considerar
-                  también, en el campo de la educación superior, a los estudiantes provenientes del
-                  60% de la población de menores ingresos y que ha aumentado en los últimos años. 
+                <div class="my-4">
+                  “Las clases van a terminar más tarde de lo que estaba finalmente previsto, eso es razonable (…) 
+                  La fecha en que se tome la prueba de acceso a la educación superior, también va a tener que 
+                  estar adecuada a esas características”, enfatizó el ministro Figueroa, añadiendo que la 
+                  visión de la Autoridad Sanitaria será tomada en cuenta para ello.
                 </div>
-                <div class="my-4">En 2019 el MINEDUC informó que 376.433 estudiantes, tanto nuevos como antiguos,
-                  accedieron a Gratuidad, representando un 57,2% de la matrícula total de pregrado.
+                <div class="my-4">
+                  A su vez, indicó que “hemos extendido los plazos para poder postular a beneficios estudiantiles”, 
+                  esto en relación a la preocupación de varias familias de estudiantes recién ingresados a la 
+                  educación superior.
                 </div>
-                <div class="my-4">Es previsible que esta cifra se incremente en 2020. Por este motivo, sería de 
-                  alto interés público evaluar un mecanismo similar al que ha aplicado aprendoenlínea.cl y 
-                  que garantice el acceso a las aulas virtuales y plataformas educativas de 
-                  las instituciones de educación superior adscritas a la Gratuidad, considerando el 
-                  contexto de los hogares de menores recursos del país.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="font-weight-bolder my-5 border border-primary rounded text-center">
+          <img src="resources/Imágenes/educa2.jpg" class="card-img-top" alt="...">
+          <h4 class="pt-4">Alejandra Grebe <br> y educación municipal: <br> “No alcanzan los recursos”.</h4>
+          <!-- Button trigger modal -->
+        <button type="button" class="btn btn-light my-4" data-toggle="modal" data-target="#exampleModalLong3-e">
+          leer más...
+        </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalLong3-e" tabindex="-1" role="dialog"
+          aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title font-weight-bolder " id="exampleModalLongTitle">Alejandra Grebe y educación municipal: “No alcanzan los recursos”</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body text-justify">
+                <div class="mb-4">Abril, 2020 <br>
+                  Redacción: Vallejos C.
                 </div>
-                <div class="my-4">Un mecanismo de esta naturaleza permitiría garantizar la continuidad 
-                  al proceso formativo con calidad, buscando dar tranquilidad a los jóvenes que se han 
-                  matriculado en Universidades, Centros de Formación Técnica e Institutos Profesionales.
+                <img src="resources/Imágenes/educa.jpg" class="card-img-top" alt="...">
+                <div class="my-4">
+                  Durante este sábado la directora de Educación Pública, Alejandra Grebe, conversó sobre el proceso de 
+                  desmunicipalización que vivirán los recintos de educación.
+                </div>
+                <div class="my-4">
+                  Al respecto, Grebe señaló que los fondos municipales destinados para educación no son suficientes. 
+                  “La desmunicipalización viene de la ley 21.040 que fue aprobada a finales del año 2017 y lo que hace 
+                  es crear un nuevo sistema nacional de educación pública, en donde la administración municipal de los 
+                  establecimientos educacionales que hoy día están en manos de las municipalidades, pasan de forma 
+                  gradual a los nuevos sistemas de educación pública que son los nuevos servicios locales de educación 
+                  pública”, manifestó.
+                </div>
+                <div class="my-4">
+                  “Lo primero que hay que entender es que hoy día cualquier municipalidad que tiene establecimientos 
+                  municipales, aparte de dar servicio de educación entregan otro tipo de servicios, como puede ser 
+                  salud o seguridad, por lo tanto los recursos se distribuyen en distintas cosas, por lo tanto, no 
+                  alcanzan los recursos“, aseguró Grebe.
+                </div>
+                <div class="my-4">
+                  “Los fondos que tienen las municipalidades no son suficientes para poder cubrir todos los gastos 
+                  que vienen. Hoy día, estos servicios nuevos de educación pública son especializados y profesionalizados, 
+                  es decir, el único servicio que ofrecen es educación“, prosiguió.
+                </div>
+                <div class="my-4">
+                  Además Grebe afirmó que el presupuesto es el mismo para todos en función de sus matrículas y apuntó 
+                  al 2030 la fecha máxima del proceso de desmunicipalización. “El presupuesto está dado por la ley de 
+                  presupuesto nacional, por lo tanto todos tienen en el fondo el mismo monto, y eso está dado en función 
+                  de la matrícula“, indicó.
+                </div>
+                <div class="my-4">
+                  “Hoy día tenemos siete servicios locales funcionando, son 70. La ley establece que al año 2025 
+                  deberían estar los 70 servicios locales funcionando, y también establece que se podría pedir una 
+                  prórroga hasta el año 2030, que es la fecha límite“, sentenció la directora.
                 </div>
               </div>
               <div class="modal-footer">
